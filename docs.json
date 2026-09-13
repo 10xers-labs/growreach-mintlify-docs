@@ -40,6 +40,59 @@
         "group": "Troubleshooting",
         "pages": ["troubleshooting/common-issues", "troubleshooting/contact-support"]
       }
+    ],
+    "groups": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "untitled-page-2",
+          "quickstart",
+          "installation"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/post-discovery",
+          "features/comment-generation",
+          "features/manual-mode",
+          "features/auto-mode",
+          "features/targeting",
+          "features/topic-filtering"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/setup-targets",
+          "guides/commenting-voice",
+          "guides/best-practices"
+        ]
+      },
+      {
+        "group": "Pricing",
+        "pages": [
+          "pricing/plans",
+          "pricing/faq"
+        ]
+      },
+      {
+        "group": "Lifetime Deal",
+        "pages": [
+          "lifetime-deal/overview",
+          "lifetime-deal/tiers",
+          "lifetime-deal/credits",
+          "lifetime-deal/faq"
+        ]
+      },
+      {
+        "group": "Troubleshooting",
+        "pages": [
+          "troubleshooting/common-issues",
+          "troubleshooting/contact-support"
+        ]
+      }
     ]
   },
   "navbar": {
