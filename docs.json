@@ -8,28 +8,82 @@
     "dark": "#0F766E"
   },
   "redirects": [
-    { "source": "/features/topic-filtering", "destination": "/commenting/comments-filter" },
-    { "source": "/features/targeting", "destination": "/commenting/target-linkedin-users" },
-    { "source": "/guides/commenting-voice", "destination": "/commenting/commenting-voice" },
-    { "source": "/guides/setup-targets", "destination": "/commenting/target-linkedin-users" },
-    { "source": "/features/post-discovery", "destination": "/commenting/post-discovery" },
-    { "source": "/features/comment-generation", "destination": "/commenting/comment-generation" },
-    { "source": "/features/manual-mode", "destination": "/commenting/manual-mode" },
-    { "source": "/features/auto-mode", "destination": "/commenting/auto-mode" },
-    { "source": "/leads/lead-actions", "destination": "/leads/actions" },
-    { "source": "/post-boost/engagement-settings", "destination": "/commenting/engagement-settings" },
-    { "source": "/account/admin-dashboard", "destination": "/team-management/admin-dashboard" },
-    { "source": "/account/linkedin-accounts", "destination": "/team-management/linkedin-accounts" },
-    { "source": "/account/account-managers", "destination": "/team-management/account-managers" },
-    { "source": "/account/account-assignments", "destination": "/team-management/account-assignments" },
-    { "source": "/account/connected-accounts", "destination": "/team-management/connected-accounts" },
-    { "source": "/account/subscription", "destination": "/team-management/subscription" }
+    {
+      "source": "/features/topic-filtering",
+      "destination": "/commenting/comments-filter"
+    },
+    {
+      "source": "/features/targeting",
+      "destination": "/commenting/target-linkedin-users"
+    },
+    {
+      "source": "/guides/commenting-voice",
+      "destination": "/commenting/commenting-voice"
+    },
+    {
+      "source": "/guides/setup-targets",
+      "destination": "/commenting/target-linkedin-users"
+    },
+    {
+      "source": "/features/post-discovery",
+      "destination": "/commenting/post-discovery"
+    },
+    {
+      "source": "/features/comment-generation",
+      "destination": "/commenting/comment-generation"
+    },
+    {
+      "source": "/features/manual-mode",
+      "destination": "/commenting/manual-mode"
+    },
+    {
+      "source": "/features/auto-mode",
+      "destination": "/commenting/auto-mode"
+    },
+    {
+      "source": "/leads/lead-actions",
+      "destination": "/leads/actions"
+    },
+    {
+      "source": "/post-boost/engagement-settings",
+      "destination": "/commenting/engagement-settings"
+    },
+    {
+      "source": "/account/admin-dashboard",
+      "destination": "/team-management/admin-dashboard"
+    },
+    {
+      "source": "/account/linkedin-accounts",
+      "destination": "/team-management/linkedin-accounts"
+    },
+    {
+      "source": "/account/account-managers",
+      "destination": "/team-management/account-managers"
+    },
+    {
+      "source": "/account/account-assignments",
+      "destination": "/team-management/account-assignments"
+    },
+    {
+      "source": "/account/connected-accounts",
+      "destination": "/team-management/connected-accounts"
+    },
+    {
+      "source": "/account/subscription",
+      "destination": "/team-management/subscription"
+    }
   ],
   "navigation": {
     "pages": [
       {
         "group": "Getting Started",
-        "pages": ["index", "video-walkthrough", "quickstart", "installation", "guides/best-practices"]
+        "pages": [
+          "index",
+          "video-walkthrough",
+          "quickstart",
+          "installation",
+          "guides/best-practices"
+        ]
       },
       {
         "group": "Commenting",
@@ -49,11 +103,19 @@
       },
       {
         "group": "Leads",
-        "pages": ["leads/leads", "leads/filtering", "leads/actions"]
+        "pages": [
+          "leads/leads",
+          "leads/icp",
+          "leads/filtering",
+          "leads/actions"
+        ]
       },
       {
         "group": "Post Boost",
-        "pages": ["post-boost/boost-my-post", "post-boost/boosted-posts"]
+        "pages": [
+          "post-boost/boost-my-post",
+          "post-boost/boosted-posts"
+        ]
       },
       {
         "group": "Team Management",
@@ -68,21 +130,38 @@
       },
       {
         "group": "Pricing",
-        "pages": ["pricing/plans", "pricing/faq"]
+        "pages": [
+          "pricing/plans",
+          "pricing/faq"
+        ]
       },
       {
         "group": "Lifetime Deal",
-        "pages": ["lifetime-deal/overview", "lifetime-deal/tiers", "lifetime-deal/credits", "lifetime-deal/faq"]
+        "pages": [
+          "lifetime-deal/overview",
+          "lifetime-deal/tiers",
+          "lifetime-deal/credits",
+          "lifetime-deal/faq"
+        ]
       },
       {
         "group": "Troubleshooting",
-        "pages": ["troubleshooting/common-issues", "troubleshooting/contact-support"]
+        "pages": [
+          "troubleshooting/common-issues",
+          "troubleshooting/contact-support"
+        ]
       }
     ],
     "groups": [
       {
         "group": "Getting Started",
-        "pages": ["index", "video-walkthrough", "quickstart", "installation", "guides/best-practices"]
+        "pages": [
+          "index",
+          "video-walkthrough",
+          "quickstart",
+          "installation",
+          "guides/best-practices"
+        ]
       },
       {
         "group": "Commenting",
@@ -102,11 +181,19 @@
       },
       {
         "group": "Leads",
-        "pages": ["leads/leads", "leads/filtering", "leads/actions"]
+        "pages": [
+          "leads/leads",
+          "leads/icp",
+          "leads/filtering",
+          "leads/actions"
+        ]
       },
       {
         "group": "Post Boost",
-        "pages": ["post-boost/boost-my-post", "post-boost/boosted-posts"]
+        "pages": [
+          "post-boost/boost-my-post",
+          "post-boost/boosted-posts"
+        ]
       },
       {
         "group": "Team Management",
@@ -121,22 +208,39 @@
       },
       {
         "group": "Pricing",
-        "pages": ["pricing/plans", "pricing/faq"]
+        "pages": [
+          "pricing/plans",
+          "pricing/faq"
+        ]
       },
       {
         "group": "Lifetime Deal",
-        "pages": ["lifetime-deal/overview", "lifetime-deal/tiers", "lifetime-deal/credits", "lifetime-deal/faq"]
+        "pages": [
+          "lifetime-deal/overview",
+          "lifetime-deal/tiers",
+          "lifetime-deal/credits",
+          "lifetime-deal/faq"
+        ]
       },
       {
         "group": "Troubleshooting",
-        "pages": ["troubleshooting/common-issues", "troubleshooting/contact-support"]
+        "pages": [
+          "troubleshooting/common-issues",
+          "troubleshooting/contact-support"
+        ]
       }
     ]
   },
   "navbar": {
     "links": [
-      { "label": "Website", "href": "https://growreach.app" },
-      { "label": "Dashboard", "href": "https://dashboard.growreach.app/login" }
+      {
+        "label": "Website",
+        "href": "https://growreach.app"
+      },
+      {
+        "label": "Dashboard",
+        "href": "https://dashboard.growreach.app/login"
+      }
     ],
     "primary": {
       "type": "button",

@@ -1,6 +1,6 @@
 ---
 title: "Act on Your Leads"
-description: "Move leads through your pipeline — New, Reached out, Connected, Won, Skipped — and reach out with a personalized connection request."
+description: "Move leads through your pipeline in the Kanban view — New, Reached out, Connected, Won, Skipped — and reach out with a connection request or reply."
 ---
 
 # Act on Your Leads
@@ -9,31 +9,47 @@ Taking action on a warm lead moves them from a name in the list to a real relati
 
 > **Route:** `/leads`
 
+## Two views: Grid and Kanban
+
+The Leads page shows your leads in **two views**, toggled with the buttons above the list:
+
+- **Grid View** (default) — the full lead cards, one per tile.
+- **List View (Kanban)** — leads arranged in **pipeline columns**, so you see your funnel at a glance.
+
+Click the **List View** toggle (bottom of the view switcher) to see the Kanban board.
+
 ## The pipeline (Kanban view)
 
-Leads move through stages as you act on them:
+The Kanban board shows leads in columns by stage — each column header shows the count, e.g. **New (5) · Reached Out (4) · Connected (1) · Won (1)**:
 
-- **All** — every lead
-- **New** — leads you haven't acted on yet
-- **Reached out** — you've sent a connection request or message
-- **Connected** — you're connected on LinkedIn
-- **Won** — the lead became a customer or won deal
-- **Skipped** — you passed on this lead
-
-Change a lead's stage from its card — click the pipeline segment at the top to filter by stage.
+- **New** — you haven't acted yet. The system just caught this person interacting with your automated comment.
+- **Reached out** — you sent them a reply or connection request and are waiting for a response.
+- **Connected** — you're connected on LinkedIn and can DM them directly.
+- **Won** — the lead became a customer or the deal you wanted.
+- **Skipped** — you looked at the lead and decided they aren't a good fit (competitor, student, or not right for you). Skipped leads clear out of your active pipeline.
 
 <Tip>
-  The pipeline reflects how warm the relationship is. Your goal is to move leads from **New** → **Reached out** → **Connected** → **Won**.
+  You can change a lead's stage manually at any time — from the card, or from its **Reach out** side panel.
 </Tip>
 
 ## Lead card actions
 
-- **View more** — expand the lead's details (their post context, matched topics, company).
-- **Reach out** — send a personalized connection request based on the commenting interaction and post topic.
+- **View more** — expand the lead's detail: the original post ("On [Name]'s post about …"), your comment, and the lead's reply/reaction, plus tags and suggested next move.
+- **Reach out** — opens the outreach side panel (see below).
 
-> ⚠️ **To be filled by GrowReach team** — the exact steps inside the **Reach out** flow (the request editor and what happens after sending) are being finalized. Everything else on this page is current.
+## The "Reach Out" side panel
+
+Clicking **Reach out** opens a slide-out panel on the right with:
+
+- **Header** — lead's name, avatar, heat score, and a **View profile** link to their LinkedIn.
+- **Pipeline state switcher** — move the lead between stages instantly (New → Reached out → Connected → Won / Skipped).
+- **Context review** — the full conversation thread for reference.
+- **Action modules** — **Write a reply** and **Write a connection note**, sent via GrowReach's LinkedIn integration.
+
+> ⚠️ **To be filled by GrowReach team** — the exact send-flow wording shown after submitting a reply/connection note is being finalized. Everything else on this page is current.
 
 ## Related
 
 - [Leads overview](/leads/leads)
+- [Set Your ICP](/leads/icp)
 - [Filter & search](/leads/filtering)
