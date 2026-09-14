@@ -7,38 +7,149 @@
     "light": "#14B8A6",
     "dark": "#0F766E"
   },
+  "redirects": [
+    {
+      "source": "/features/topic-filtering",
+      "destination": "/commenting/comments-filter"
+    },
+    {
+      "source": "/features/targeting",
+      "destination": "/commenting/target-linkedin-users"
+    },
+    {
+      "source": "/guides/commenting-voice",
+      "destination": "/commenting/commenting-voice"
+    },
+    {
+      "source": "/guides/setup-targets",
+      "destination": "/commenting/target-linkedin-users"
+    },
+    {
+      "source": "/features/post-discovery",
+      "destination": "/commenting/post-discovery"
+    },
+    {
+      "source": "/features/comment-generation",
+      "destination": "/commenting/comment-generation"
+    },
+    {
+      "source": "/features/manual-mode",
+      "destination": "/commenting/manual-mode"
+    },
+    {
+      "source": "/features/auto-mode",
+      "destination": "/commenting/auto-mode"
+    },
+    {
+      "source": "/leads/lead-actions",
+      "destination": "/leads/actions"
+    },
+    {
+      "source": "/post-boost/engagement-settings",
+      "destination": "/commenting/engagement-settings"
+    },
+    {
+      "source": "/account/admin-dashboard",
+      "destination": "/team-management/admin-dashboard"
+    },
+    {
+      "source": "/account/linkedin-accounts",
+      "destination": "/team-management/linkedin-accounts"
+    },
+    {
+      "source": "/account/account-managers",
+      "destination": "/team-management/account-managers"
+    },
+    {
+      "source": "/account/account-assignments",
+      "destination": "/team-management/account-assignments"
+    },
+    {
+      "source": "/account/connected-accounts",
+      "destination": "/team-management/connected-accounts"
+    },
+    {
+      "source": "/account/subscription",
+      "destination": "/team-management/subscription"
+    }
+  ],
   "navigation": {
     "pages": [
       {
         "group": "Getting Started",
-        "pages": ["index", "quickstart", "installation"]
-      },
-      {
-        "group": "Features",
         "pages": [
-          "features/post-discovery",
-          "features/comment-generation",
-          "features/manual-mode",
-          "features/auto-mode",
-          "features/targeting",
-          "features/topic-filtering"
+          "index",
+          "video-walkthrough",
+          "quickstart",
+          "installation",
+          "guides/best-practices"
         ]
       },
       {
-        "group": "Guides",
-        "pages": ["guides/setup-targets", "guides/commenting-voice", "guides/best-practices"]
+        "group": "Commenting",
+        "pages": [
+          "commenting/post-discovery",
+          "commenting/target-linkedin-users",
+          "commenting/target-topics",
+          "commenting/commenting-voice",
+          "commenting/my-ai-persona",
+          "commenting/comments-filter",
+          "commenting/comment-generation",
+          "commenting/manual-mode",
+          "commenting/auto-mode",
+          "commenting/activity",
+          "commenting/engagement-settings"
+        ]
+      },
+      {
+        "group": "Leads",
+        "pages": [
+          "leads/leads",
+          "leads/icp",
+          "leads/filtering",
+          "leads/actions"
+        ]
+      },
+      {
+        "group": "Post Boost",
+        "pages": [
+          "post-boost/boost-my-post",
+          "post-boost/boosted-posts"
+        ]
+      },
+      {
+        "group": "Team Management",
+        "pages": [
+          "team-management/admin-dashboard",
+          "team-management/linkedin-accounts",
+          "team-management/account-managers",
+          "team-management/account-assignments",
+          "team-management/connected-accounts",
+          "team-management/subscription"
+        ]
       },
       {
         "group": "Pricing",
-        "pages": ["pricing/plans", "pricing/faq"]
+        "pages": [
+          "pricing/plans",
+          "pricing/faq"
+        ]
       },
       {
         "group": "Lifetime Deal",
-        "pages": ["lifetime-deal/overview", "lifetime-deal/tiers", "lifetime-deal/credits", "lifetime-deal/faq"]
+        "pages": [
+          "lifetime-deal/overview",
+          "lifetime-deal/tiers",
+          "lifetime-deal/credits",
+          "lifetime-deal/faq"
+        ]
       },
       {
         "group": "Troubleshooting",
-        "pages": ["troubleshooting/common-issues", "troubleshooting/contact-support"]
+        "pages": [
+          "troubleshooting/common-issues",
+          "troubleshooting/contact-support"
+        ]
       }
     ],
     "groups": [
@@ -48,26 +159,51 @@
           "index",
           "video-walkthrough",
           "quickstart",
-          "installation"
-        ]
-      },
-      {
-        "group": "Features",
-        "pages": [
-          "features/post-discovery",
-          "features/comment-generation",
-          "features/manual-mode",
-          "features/auto-mode",
-          "features/targeting",
-          "features/topic-filtering"
-        ]
-      },
-      {
-        "group": "Guides",
-        "pages": [
-          "guides/setup-targets",
-          "guides/commenting-voice",
+          "installation",
           "guides/best-practices"
+        ]
+      },
+      {
+        "group": "Commenting",
+        "pages": [
+          "commenting/post-discovery",
+          "commenting/target-linkedin-users",
+          "commenting/target-topics",
+          "commenting/commenting-voice",
+          "commenting/my-ai-persona",
+          "commenting/comments-filter",
+          "commenting/comment-generation",
+          "commenting/manual-mode",
+          "commenting/auto-mode",
+          "commenting/activity",
+          "commenting/engagement-settings"
+        ]
+      },
+      {
+        "group": "Leads",
+        "pages": [
+          "leads/leads",
+          "leads/icp",
+          "leads/filtering",
+          "leads/actions"
+        ]
+      },
+      {
+        "group": "Post Boost",
+        "pages": [
+          "post-boost/boost-my-post",
+          "post-boost/boosted-posts"
+        ]
+      },
+      {
+        "group": "Team Management",
+        "pages": [
+          "team-management/admin-dashboard",
+          "team-management/linkedin-accounts",
+          "team-management/account-managers",
+          "team-management/account-assignments",
+          "team-management/connected-accounts",
+          "team-management/subscription"
         ]
       },
       {
@@ -97,8 +233,14 @@
   },
   "navbar": {
     "links": [
-      { "label": "Website", "href": "https://growreach.app" },
-      { "label": "Dashboard", "href": "https://dashboard.growreach.app/login" }
+      {
+        "label": "Website",
+        "href": "https://growreach.app"
+      },
+      {
+        "label": "Dashboard",
+        "href": "https://dashboard.growreach.app/login"
+      }
     ],
     "primary": {
       "type": "button",
